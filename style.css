@@ -1,21 +1,18 @@
-@font-face {
-    font-family: 'Zealandia';
-    src: url('PNAZealandiaDEMO-Bold.woff2') format('woff2'); /* Bold */
-    font-weight: bold; /* Use 'bold' for the bold font */
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'Zealandia';
-    src: url('PNAZealandiaDEMO-Thin.woff2') format('woff2'); /* Thin */
-    font-weight: 300; /* Use '300' for the thin font */
-    font-style: normal;
-}
-
+@@ -1,5 +1,12 @@
 body {
+    font-family: Arial, sans-serif;
+   @font-face {
+    font-family: 'Zealandia';
+    src: url('PNAZealandiaDEMO-Bold.woff2') format('woff2'), /* Bold */
+         url('PNAZealandiaDEMO-Thin.woff2') format('woff2'); /* Thin */
+    font-weight: normal;
+    font-style: normal;
+}
+
     margin: 0;
     padding: 0;
-    background-image: url('DALL·E 2024-03-24 14.59.38 - Create an ultra-simple, high-resolution, orange-colored image with an extremely subtle texture. This design aims for minimalism, resembling something .webp'); /* Update with your actual image URL */
+    background-image: url('DALL·E 2024-03-24 14.59.38 - Create an ultra-simple, high-resolution, orange-colored image with an extremely subtle texture. This design aims for minimalism, resembling something .webp'); /* Add your image URL here */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -24,22 +21,13 @@ body {
     align-items: center;
     height: 100vh;
 }
-
 .container {
     text-align: center;
-    /* Additional container styles can be added if needed */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 h1 {
-    color: white;
-    font-family: 'Zealandia';
-    font-weight: bold; /* Make the h1 text bold */
-    font-size: 48px; /* Adjust size as needed */
-}
-
-p {
-    color: white;
-    font-family: 'Zealandia';
-    font-weight: 300; /* Make the paragraph text thin */
-    font-size: 24px; /* Adjust size as needed */
+    color: #333;
 }
