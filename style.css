@@ -1,5 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+   @font-face {
+    font-family: 'Zealandia';
+    src: url('PNAZealandiaDEMO-Bold.woff2') format('woff2'), /* Bold */
+         url('PNAZealandiaDEMO-Thin.woff2') format('woff2'); /* Thin */
+    font-weight: normal;
+    font-style: normal;
+}
+
     margin: 0;
     padding: 0;
     background-image: url('DALL·E 2024-03-24 14.59.38 - Create an ultra-simple, high-resolution, orange-colored image with an extremely subtle texture. This design aims for minimalism, resembling something .webp'); /* Add your image URL here */
