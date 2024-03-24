@@ -1,5 +1,4 @@
-body {
-   @font-face {
+@font-face {
     font-family: 'Zealandia';
     src: url('PNAZealandiaDEMO-Bold.woff2') format('woff2'), /* Bold */
          url('PNAZealandiaDEMO-Thin.woff2') format('woff2'); /* Thin */
