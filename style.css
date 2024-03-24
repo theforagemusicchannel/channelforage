@@ -2,7 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-image: url('https://raw.githubusercontent.com/theforagemusicchannel/channelforage/main/DALL%C2%B7E%202024-03-24%2014.59.38%20-%20Create%20an%20ultra-simple%2C%20high-resolution%2C%20orange-colored%20image%20with%20an%20extremely%20subtle%20texture.%20This%20design%20aims%20for%20minimalism%2C%20resembling%20something%20.webp'); /* Add your image URL here */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
     display: flex;
     justify-content: center;
     align-items: center;
